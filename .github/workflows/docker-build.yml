@@ -22,7 +22,7 @@ jobs:
           docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 
       - name: Docker Build
-        run: docker build . -f Dockerfile -t umittas2000/numberguess:latest
+        run: docker build . -f dockerfile -t umittas2000/numberguess:latest
 
       - name: Docker Push
         run: docker push umittas2000/numberguess
