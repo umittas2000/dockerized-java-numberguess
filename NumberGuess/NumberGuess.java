@@ -97,9 +97,9 @@ public class NumberGuess {
     public static String starterHint(int num,int language){
         String result ="";
         String[][] hints ={
-                {"","Baslangic yakinsamasi: Bir elin parmaklari?","Starter hint: Fingers of hand"},
-                {"","Baslangic yakinsamasi: 2. Dunya savasi?","Starter hint: World war 2"},
-                {"","Baslangic yakinsamasi: Kac spartali?","Starter hint: How many Spartans?"},
+                {"","Baslangic yakinsamasi: Ilk babalar gunu?","Starter hint: First father's day?"},
+                {"","Baslangic yakinsamasi: 2. Dunya savasi sonu?","Starter hint: end of World war 2?"},
+                {"","Baslangic yakinsamasi: Google'un kurulusu?","Starter hint: Google Founded?"},
         };
         if(num<11){
             result=hints[0][language];
