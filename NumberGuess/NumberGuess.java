@@ -113,7 +113,7 @@ public class NumberGuess {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("New Push1 : Turkce(1) or English(2) ? :");
+        System.out.print("Turkce(1) or English(2) ? : ");
         int language = input.nextInt();
         printHeader(language);
 
